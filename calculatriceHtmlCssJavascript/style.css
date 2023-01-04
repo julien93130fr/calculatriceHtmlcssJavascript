@@ -1,0 +1,81 @@
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border;
+}
+
+
+body{
+    background-image: url(./geometry-gde86dc669_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+   background-color: black;
+   color: black;
+   text-align: center;
+}
+
+.mainquery{
+    display: flex;
+    flex-direction: column;
+    width: 410px; 
+}
+
+h1{
+    font-size: 75px ;
+}
+
+label{
+    margin: 10px 0;
+    font-size: 60px ; 
+}
+
+input{
+    margin: 10px 0;
+    font-size: 19px ;
+}
+
+input{
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 19px ;
+    color: white;
+    border: 10px solid white;
+    outline: 0;
+    text-align: center;
+    border-radius: 20px;
+    background-color: black;
+ 
+}
+
+button{
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 19px ;
+    color: white;
+    background-color: black;
+    border: 10px solid white;
+    outline: 0;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: hotpink;
+}
+
+.response{
+    width: 410px;
+    display: none;
+    color: hotpink;
+}
+
+
+
+
